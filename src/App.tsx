@@ -55,7 +55,7 @@ const App: React.FC = () => {
 
   const formik = useFormik({
     initialValues: {
-      socialId: "",
+      socialID: "",
       socialLink: "",
       socialType: "",
     },
@@ -67,7 +67,7 @@ const App: React.FC = () => {
         }
       });
       const data = {
-        socialId: values.socialId,
+        socialID: values.socialID,
         socialLink: values.socialLink,
         socialType: values.socialType,
       };
@@ -107,7 +107,7 @@ const App: React.FC = () => {
     });
     setEditingItem(selectedItem);
     formik.values.socialLink = editingItem?.socialLink!;
-    formik.values.socialId = editingItem?.socialId!;
+    formik.values.socialID = editingItem?.socialID!;
     formik.values.socialType = editingItem?.socialType!;
     console.log(editingItem?.socialType);
     setOpenAccordion(true);
@@ -135,7 +135,7 @@ const App: React.FC = () => {
     setOpenAccordion(false);
     setEditMode(false);
     formik.values.socialLink = "";
-    formik.values.socialId = "";
+    formik.values.socialID = "";
     formik.values.socialType = "";
   };
 
@@ -206,7 +206,7 @@ const App: React.FC = () => {
                                 {item.socialType}
                               </Grid>
                               <Grid item xs={3} sx={{ textAlign: "right" }}>
-                                آیدی: {item.socialId}
+                                آیدی: {item.socialID}
                               </Grid>
                               <Grid item xs={4} sx={{ textAlign: "right" }}>
                                 لینک: {item.socialLink}

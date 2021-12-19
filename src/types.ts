@@ -1,6 +1,6 @@
 export interface FormItem {
   id?: number;
-  socialId: string;
+  socialID: string;
   socialLink: string;
   socialType: string;
 }

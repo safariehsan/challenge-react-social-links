@@ -1,8 +1,8 @@
 {
   "socials": [
     {
-      "socialId": "MyID",
-      "socialLink": "https://twitter.com/test",
+      "socialID": "MyTwitterID",
+      "socialLink": "https://sample.com",
       "socialType": "twitter",
       "id": 1
     }
