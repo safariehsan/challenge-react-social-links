@@ -1,0 +1,10 @@
+{
+  "socials": [
+    {
+      "socialId": "MyID",
+      "socialLink": "https://twitter.com/test",
+      "socialType": "twitter",
+      "id": 1
+    }
+  ]
+}
